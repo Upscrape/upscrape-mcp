@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "upscrape": {
+      "url": "https://data.upscrape.com/mcp"
+    }
+  }
+}

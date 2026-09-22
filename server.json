@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.upscrape/mcp",
+  "title": "Upscrape",
+  "description": "Real-time data APIs for 50+ commerce, grocery, social and maps platforms over one OAuth MCP server",
+  "websiteUrl": "https://docs.upscrape.com/docs/mcp/overview",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.upscrape.com/mcp"
+    }
+  ]
+}

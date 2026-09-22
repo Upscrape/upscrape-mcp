@@ -1,0 +1,4 @@
+[mcp_servers.upscrape]
+url = "https://data.upscrape.com/mcp"
+
+# Then run: codex mcp login upscrape
