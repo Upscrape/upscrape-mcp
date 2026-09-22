@@ -4,7 +4,11 @@
   "title": "Upscrape",
   "description": "Real-time data APIs for 50+ commerce, grocery, social and maps platforms over one OAuth MCP server",
   "websiteUrl": "https://docs.upscrape.com/docs/mcp/overview",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Upscrape/upscrape-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
