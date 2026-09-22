@@ -43,7 +43,9 @@ Then open `/mcp` in Claude Code and authenticate.
 
 ### Cursor
 
-Add to your MCP configuration ([example](examples/cursor-mcp.json)):
+This repository is also a Cursor plugin ([manifest](.cursor-plugin/plugin.json)).
+To configure it by hand, add to your MCP configuration
+([example](examples/cursor-mcp.json)):
 
 ```json
 {

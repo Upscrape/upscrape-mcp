@@ -1,0 +1,33 @@
+{
+  "name": "upscrape",
+  "displayName": "Upscrape",
+  "version": "1.0.0",
+  "description": "Real-time data from 50+ commerce, grocery, social and maps platforms as structured JSON.",
+  "author": {
+    "name": "Upscrape",
+    "email": "founders@upscrape.com"
+  },
+  "publisher": "Upscrape",
+  "homepage": "https://docs.upscrape.com/docs/mcp/overview",
+  "repository": "https://github.com/Upscrape/upscrape-mcp",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "upscrape",
+    "web-data",
+    "web-scraping",
+    "ecommerce",
+    "social-media",
+    "google-maps",
+    "price-monitoring",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "upscrape",
+    "web-data",
+    "scraping",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}
