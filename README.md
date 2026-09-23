@@ -141,6 +141,10 @@ not expire. New accounts get up to 100 free credits to start. See
 Upscrape is not affiliated with the platforms in its catalog. Platform names
 are trademarks of their respective owners.
 
+## Directories
+
+Also listed on [Smithery](https://smithery.ai/servers/upscrape/upscrape-mcp) and [Glama](https://glama.ai/mcp/connectors/com.upscrape/mcp).
+
 ## Support
 
 Email [founders@upscrape.com](mailto:founders@upscrape.com) or open an issue in
