@@ -1,5 +1,7 @@
 # Upscrape MCP server
 
+[![Upscrape MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.upscrape/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.upscrape/mcp)
+
 <!-- mcp-name: com.upscrape/mcp -->
 
 Real-time data APIs for 50+ commerce, grocery, social and maps platforms, over
