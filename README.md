@@ -125,9 +125,9 @@ to the URL, for example `https://data.upscrape.com/mcp?platforms=blinkit`. See
 
 ## Pricing
 
-Prepaid credits, fixed price per request, no subscription. Each capability
-publishes its price. Failed requests are not charged and purchased credits do
-not expire. New accounts get up to 100 free credits to start. See
+Prepaid credits, no subscription. Each capability publishes its price in
+credits, and the price is shown before each request runs. Failed requests are
+not charged and purchased credits do not expire. New accounts get up to 100 free credits to start. See
 [pricing](https://upscrape.com/pricing).
 
 ## Security
