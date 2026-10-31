@@ -4,7 +4,7 @@
 
 <!-- mcp-name: com.upscrape/mcp -->
 
-Real-time data APIs for 50+ commerce, grocery, social and maps platforms, over
+Real-time data APIs for 60+ commerce, grocery, social and maps platforms, over
 one remote MCP server. AI clients such as Claude, ChatGPT, Cursor, VS Code,
 Codex and Gemini CLI connect with OAuth and get structured JSON from the live
 source.
@@ -107,14 +107,20 @@ Clients that accept a bearer token can use an Upscrape API key. See
 
 ## Tools
 
-The default connection exposes four tools:
+The default connection exposes seven tools:
 
 | Tool | What it does | Cost |
 |---|---|---|
 | `upscrape_search_capabilities` | Finds capabilities by task, platform, URL or category. Top matches include their input schema | Free |
-| `upscrape_describe_capability` | Returns a capability's exact input schema, example input, timeout and price | Free |
+| `upscrape_describe_capability` | Returns a capability's exact input schema, example input, run time and price | Free |
+| `upscrape_prepare` | Checks an input and shows the exact price without running anything. A ready answer includes the arguments for `upscrape_execute` | Free |
 | `upscrape_execute` | Runs one capability. Supports a credit ceiling (`max_credits`) and safe retries (`operation_key`) | The capability's published price, charged only when the job succeeds |
 | `upscrape_get_job_result` | Retrieves a job started earlier, including large results in chunks | Free |
+| `upscrape_list_jobs` | Lists recent jobs, newest first, without their inputs or results | Free |
+| `upscrape_export_result` | Returns a finished job or collection as JSON Lines or CSV, in pieces with checksums | Free |
+
+Account, feedback and collection tools appear only when you allow them on the
+consent page, and a read-only connection has no tools that spend credits.
 
 Every tool carries read-only and destructive hints. No tool is destructive.
 
@@ -143,7 +149,7 @@ are trademarks of their respective owners.
 
 ## Directories
 
-Also listed on [Smithery](https://smithery.ai/servers/upscrape/upscrape-mcp) and [Glama](https://glama.ai/mcp/connectors/com.upscrape/mcp).
+Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=upscrape) and on [Glama](https://glama.ai/mcp/connectors/com.upscrape/mcp).
 
 ## Support
 
